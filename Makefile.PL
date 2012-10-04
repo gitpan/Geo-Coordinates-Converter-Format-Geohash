@@ -8,15 +8,14 @@ githubmeta;
 requires 'parent';
 requires 'Class::Accessor::Lite'       => '0.05';
 requires 'Geo::Coordinates::Converter' => '0.07';
-requires 'Geo::Hash'                   => '0.02';
+requires 'Geohash'                     => '0.02';
 
 tests 't/*.t';
 author_tests 'xt';
 
+build_requires 'Test::Base';
 build_requires 'Test::More';
-test_requires 'YAML';
-use_test_base;
+build_requires 'YAML';
 
 auto_set_repository;
-auto_include;
 WriteAll;

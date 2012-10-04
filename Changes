@@ -1,5 +1,9 @@
 Revision history for Perl extension Geo::Coordinates::Converter::Format::GeoHash
 
+0.05    2012-10-04T11:58:21+09:00
+        - change backend Geo::Hash to Geohash
+        - fixed RT #73468, Missing inclusion of YAML::Base
+
 0.04    2011-02-08T14:59:33+09:00
         - load Point::Geohash in Format::Geohash ( reported by tokuhirom )
 
